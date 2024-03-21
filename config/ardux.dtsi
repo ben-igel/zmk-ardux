@@ -286,7 +286,7 @@
  		/**************************************
 		* eigenes
 		****************************************/
-		combo_boot          { timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_R KEY_Y KEY_T KEY_I KEY_A KEY_R KEY_T KEY_S>; bindings = <&bootloader>; };
+		combo_boot          { timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_A KEY_R KEY_T KEY_S KEY_E KEY_Y KEY_I KEY_O>; bindings = <&bootloader>; };
 	};
 };
 
