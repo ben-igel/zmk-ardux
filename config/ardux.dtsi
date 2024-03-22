@@ -151,7 +151,7 @@
 			label = "Custom";                                          \
 			bindings = <                                               \
 				LEADING_NONES                                          \
-				&kp LC(C) &kp LC(V)   &kp C_VOL_UP  &none               \
+				&kp LC(C) &kp LC(V)   &kp C_VOL_UP  &kp C_PLAY              \
 				MIDDLE_NONES                                           \
 				&kp LC(X)  &kp PSCRN &kp C_VOL_DN  &mo LAYER_ID_CUSTOM \
 				TRAILING_NONES                                         \
