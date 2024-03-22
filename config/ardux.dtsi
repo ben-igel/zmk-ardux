@@ -388,9 +388,9 @@
 			label = "Paren";
 			bindings = <
 				LEADING_NONES
-				&mo LAYER_ID_PARENTHETICALS                         &kp LPAR  &kp RPAR  &kp LBRC
+				&mo LAYER_ID_PARENTHETICALS                         &kp LS(N8)  &kp LS(N9)  &kp RA(N7)
 				MIDDLE_NONES
-				&none                                               &kp LBKT  &kp RBKT  &kp RBRC
+				&none                                               &kp RA(N8)   &kp RA(N9)   &kp RA(N0) 
 				TRAILING_NONES
 			>;
 		};
