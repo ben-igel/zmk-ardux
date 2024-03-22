@@ -277,7 +277,8 @@
 		combo_oe            { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_A KEY_R KEY_S>; bindings = <&kp SEMI>; };
 		combo_ue            { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_E KEY_Y KEY_O>; bindings = <&kp LBKT>; };
 		combo_sz            { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_R KEY_E KEY_O>; bindings = <&kp MINUS>; };
-
+		combo_doppelp       { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_A KEY_R KEY_Y>; bindings = <&kp LS(COMMA)>; };
+		combo_strichp       { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_A KEY_R KEY_Y>; bindings = <&kp LS(DOT)>; };
 		
 		/*****************************************
 		 * 4 key combos
