@@ -213,7 +213,7 @@
 #define LAYER_ID_BIG_SYM 7
 #define LAYER_ID_BIG_FUNCTION 8
 
-#define LAYER_ID_SMALLER 9
+// #define LAYER_ID_SMALLER 9
 
 /*****************************************
  * Standard ARDUX combo definitions
@@ -327,9 +327,10 @@
 						#binding-cells = <2>; tapping_term_ms = <TIMEOUT_LAYER_HOLD>; flavor = "tap-preferred";
 						bindings = <&sk>, <&sk>; };
 
-		layer_smaller_kp: layer_smaller_kp { compatible = "zmk,behavior-hold-tap"; label = "layer_smaller_kp";
+		/* layer_smaller_kp: layer_smaller_kp { compatible = "zmk,behavior-hold-tap"; label = "layer_smaller_kp";
 						#binding-cells = <2>; tapping_term_ms = <TIMEOUT_LAYER_HOLD>; flavor = "tap-preferred";
 						bindings = <&mo>, <&kp>; };
+		*/
 	};
 };
 
@@ -421,7 +422,7 @@
 				TRAILING_NONES
 			>;
 		};
-
+		/*
 		smaller {
 			label = "Small";
 			bindings = <
@@ -432,6 +433,7 @@
 				TRAILING_NONES
 			>;
 		};
+		*/
 		ARDUX_LAYER_CUSTOM
 		#if defined ARDUX_BIG
 		big_ardux_symbol {
