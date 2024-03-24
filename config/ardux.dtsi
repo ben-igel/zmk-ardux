@@ -212,6 +212,7 @@
 #define LAYER_ID_CUSTOM 6
 #define LAYER_ID_BIG_SYM 7
 #define LAYER_ID_BIG_FUNCTION 8
+#define LAYER_ID_FN 9
 
 
 /*****************************************
@@ -277,6 +278,8 @@
 		combo_esc              { timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_A KEY_R KEY_O>; bindings = <&kp ESC>; };
 		combo_layer_navigation { timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_R KEY_E KEY_I>; bindings = <&tog LAYER_ID_NAVIGATION>; };
 
+		combo_layer_fn { timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_A KEY_Y KEY_T>; bindings = <&tog LAYER_ID_FN>; };
+
 		combo_m            { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_Y KEY_I KEY_O>; bindings = <&kp M>; };
 		combo_d            { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_A KEY_R KEY_T>; bindings = <&kp D>; };
 		combo_p            { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_E KEY_I KEY_O>; bindings = <&kp P>; };
@@ -337,6 +340,10 @@
 		ctrl_alt_kp: ctrl_alt_kp { compatible = "zmk,behavior-hold-tap"; label = "ctrl_alt_kp";
 						#binding-cells = <2>; tapping_term_ms = <TIMEOUT_LAYER_HOLD>; flavor = "tap-preferred";
 						bindings = <&sk>, <&sk>; };
+
+		layer_fn_kp: layer_fn_kp { compatible = "zmk,behavior-hold-tap"; label = "layer_fn_kp";
+						#binding-cells = <2>; tapping_term_ms = <TIMEOUT_LAYER_HOLD>; flavor = "tap-preferred";
+						bindings = <&mo>, <&kp>; };
 	};
 };
 
@@ -459,6 +466,18 @@
 			>;
 		};
 		#endif
+
+		fn {
+			label = "Fn";
+			bindings = <
+				LEADING_NONES
+				&kp F1 &kp F2 &kp F3 &kp F4
+				MIDDLE_NONES
+				&kp F5 &kp F6 &kp F7 &kp F8
+				TRAILING_NONES
+			>;
+		};
+
 	};
 };
 #endif
