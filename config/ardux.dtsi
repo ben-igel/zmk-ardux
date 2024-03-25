@@ -279,7 +279,12 @@
 		combo_fn12   { layers = <LAYER_ID_FN>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_E KEY_Y>; bindings = <&kp F12>; };
 
 		combo_screen_mac   { layers = <LAYER_ID_CUSTOM>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_E KEY_Y>; bindings = <&kp LA(LS(N3))>; };
-		
+
+		combo_anf_zeichen   { layers = <LAYER_ID_SYMBOLS>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_R KEY_T>; bindings = <&kp LS(N2)>; };
+		combo_apos   { layers = <LAYER_ID_SYMBOLS>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_Y KEY_I>; bindings = <&kp LS(NON_US_HASH)>; };
+		combo_tilde   { layers = <LAYER_ID_SYMBOLS>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_T KEY_S>; bindings = <&kp RA(NON_US_HASH)>; };
+		combo_raute   { layers = <LAYER_ID_SYMBOLS>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_I KEY_O>; bindings = <&kp NON_US_HASH>; };
+
 		/*****************************************
 		 * 3 key combos
 		 *****************************************/
