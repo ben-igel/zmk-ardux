@@ -539,6 +539,7 @@
 			>;
 		};
 		#else
+/*
 		base {
 			label = "ARDUX";
 			bindings = <
@@ -546,6 +547,20 @@
 				&layer_numbers_kp LAYER_ID_NUMBERS ARDUX_BASE_S        &kp ARDUX_BASE_T     &kp ARDUX_BASE_R     &layer_parentheticals_kp LAYER_ID_PARENTHETICALS ARDUX_BASE_A
 				MIDDLE_NONES
 				&layer_custom_kp LAYER_ID_CUSTOM ARDUX_BASE_O          &kp ARDUX_BASE_I     &kp ARDUX_BASE_Y     &layer_symbols_kp LAYER_ID_SYMBOLS ARDUX_BASE_E
+				TRAILING_NONES
+				#if defined CUSTOM_THUMB
+				CUSTOM_THUMB
+				#endif
+			>;
+		};
+*/
+		base {
+			label = "ARDUX";
+			bindings = <
+				LEADING_NONES
+				&layer_parentheticals_kp LAYER_ID_PARENTHETICALS ARDUX_BASE_A  &kp ARDUX_BASE_R     &layer_math_kp LAYER_ID_MATH ARDUX_BASE_T     &layer_numbers_kp LAYER_ID_NUMBERS ARDUX_BASE_S
+				MIDDLE_NONES
+				&layer_symbols_kp LAYER_ID_SYMBOLS ARDUX_BASE_E                &kp ARDUX_BASE_Y     &kp ARDUX_BASE_I     &layer_custom_kp LAYER_ID_CUSTOM ARDUX_BASE_O
 				TRAILING_NONES
 				#if defined CUSTOM_THUMB
 				CUSTOM_THUMB
