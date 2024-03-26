@@ -531,9 +531,9 @@
 			label = "NumbersLocked";
 			bindings = <
 				LEADING_NONES
-				&kp N1                                              &kp N2    &kp N3    &none
+				&kp N1                                              &kp N2    &kp N3    &kp KP_PLUS 
 				MIDDLE_NONES
-				&kp N4                                              &kp N5    &kp N6    &none
+				&kp N4                                              &kp N5    &kp N6    &kp KP_MINUS 
 				TRAILING_NONES
 			>;
 		};
