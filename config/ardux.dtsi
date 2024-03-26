@@ -212,9 +212,11 @@
 #define LAYER_ID_BT_SEL 5
 #define LAYER_ID_FN 6
 #define LAYER_ID_MATH 7
-#define LAYER_ID_CUSTOM 8
-#define LAYER_ID_BIG_SYM 9
-#define LAYER_ID_BIG_FUNCTION 10
+#define LAYER_ID_MEDIA 8
+#define LAYER_ID_COPY 9
+#define LAYER_ID_CUSTOM 10
+#define LAYER_ID_BIG_SYM 11
+#define LAYER_ID_BIG_FUNCTION 12
 
 
 
@@ -369,6 +371,12 @@
 		layer_math_kp: layer_math_kp { compatible = "zmk,behavior-hold-tap"; label = "layer_math_kp";
 						#binding-cells = <2>; tapping_term_ms = <TIMEOUT_LAYER_HOLD>; flavor = "tap-preferred";
 						bindings = <&mo>, <&kp>; };
+		layer_media_kp: layer_media_kp { compatible = "zmk,behavior-hold-tap"; label = "layer_media_kp";
+						#binding-cells = <2>; tapping_term_ms = <TIMEOUT_LAYER_HOLD>; flavor = "tap-preferred";
+						bindings = <&mo>, <&kp>; };
+		layer_copy_kp: layer_copy_kp { compatible = "zmk,behavior-hold-tap"; label = "layer_copy_kp";
+						#binding-cells = <2>; tapping_term_ms = <TIMEOUT_LAYER_HOLD>; flavor = "tap-preferred";
+						bindings = <&mo>, <&kp>; };
 	};
 };
 
@@ -477,6 +485,26 @@
 				&kp KP_PLUS                        &kp KP_MULTIPLY  &mo LAYER_ID_MATH  &none
 				MIDDLE_NONES
 				&kp KP_MINUS                      &kp KP_DIVIDE   &none   &none 
+				TRAILING_NONES
+			>;
+		};
+		media {
+			label = "Media";
+			bindings = <
+				LEADING_NONES
+				&kp C_VOL_UP                        &kp C_PLAY  %kp C_NEXT  &none
+				MIDDLE_NONES
+				&kp C_VOL_DOWN                      &mo LAYER_ID_MEDIA   &kp C_PREV   &none 
+				TRAILING_NONES
+			>;
+		};
+		copy {
+			label = "Copy";
+			bindings = <
+				LEADING_NONES
+				&kp LC(C)                       &kp LC(V)  &none  &kp PRINTSCREEN
+				MIDDLE_NONES
+				&kp LC(X)                      &kp LC(Y)   &mo LAYER_ID_COPY   &kp LC(Z) 
 				TRAILING_NONES
 			>;
 		};
