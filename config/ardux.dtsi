@@ -492,7 +492,7 @@
 			label = "Media";
 			bindings = <
 				LEADING_NONES
-				&kp C_VOL_UP                        &kp C_PLAY  %kp C_NEXT  &none
+				&kp C_VOL_UP                        &kp C_PLAY  &kp C_NEXT  &none
 				MIDDLE_NONES
 				&kp C_VOL_DOWN                      &mo LAYER_ID_MEDIA   &kp C_PREV   &none 
 				TRAILING_NONES
