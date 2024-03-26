@@ -276,8 +276,8 @@
 
 		combo_dot_numlock   { layers = <LAYER_ID_NUMLOCK>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_A KEY_T>; bindings = <&kp DOT>; };
 		combo_comma_numlock { layers = <LAYER_ID_NUMLOCK>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_E KEY_I>; bindings = <&kp COMMA>; };
-		combo_multi_numlock { layers = <LAYER_ID_NUMLOCK>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_T KEY_S>; bindings = <&kp MULTIPLY>; };
-		combo_div_numlock { layers = <LAYER_ID_NUMLOCK>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_I KEY_O>; bindings = <&kp DIVIDE>; };
+		combo_multi_numlock { layers = <LAYER_ID_NUMLOCK>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_T KEY_S>; bindings = <&kp KP_MULTIPLY>; };
+		combo_div_numlock { layers = <LAYER_ID_NUMLOCK>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_I KEY_O>; bindings = <&kp KP_DIVIDE>; };
 		combo_dachl_numlock { layers = <LAYER_ID_NUMLOCK>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_R KEY_S>; bindings = <&kp GRAVE>; };
 		combo_istgleich_numlock { layers = <LAYER_ID_NUMLOCK>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_Y KEY_O>; bindings = <&kp LS(N0)>; };
 
