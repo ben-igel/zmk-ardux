@@ -147,7 +147,7 @@
 #if !defined ARDUX_LAYER_CUSTOM
 #if defined ARDUX_RIGHT
 #define ARDUX_LAYER_CUSTOM                                            \
-		custom {                                                       \
+		/* custom {                                                       \
 			label = "Custom";                                          \
 			bindings = <                                               \
 				LEADING_NONES                                          \
@@ -156,6 +156,17 @@
 				&kp LC(X)  &kp PSCRN &kp C_VOL_DN  &mo LAYER_ID_CUSTOM \
 				TRAILING_NONES                                         \
 			>;                                                         \
+		};
+		*/
+		custom {
+			label = "Custom";
+			bindings = <
+				LEADING_NONES
+				&kp LC(LEFT)                                            &kp UP    &kp LC(RIGHT)   &none
+				MIDDLE_NONES
+				&kp LEFT                                            &kp DOWN  &kp RIGHT &mo LAYER_ID_CUSTOM
+				TRAILING_NONES
+			>;
 		};
 #endif
 #if defined ARDUX_LEFT
