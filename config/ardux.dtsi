@@ -147,7 +147,8 @@
 #if !defined ARDUX_LAYER_CUSTOM
 #if defined ARDUX_RIGHT
 #define ARDUX_LAYER_CUSTOM                                            \
-		/* custom {                                                       \
+		/* 
+		custom {                                                       \
 			label = "Custom";                                          \
 			bindings = <                                               \
 				LEADING_NONES                                          \
