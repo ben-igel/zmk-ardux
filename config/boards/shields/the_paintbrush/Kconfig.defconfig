@@ -1,7 +1,16 @@
-if SHIELD_THE_PAINTBRUSH_LEFT || SHIELD_THE_PAINTBRUSH_RIGHT
-
+if SHIELD_THE_PAINTBRUSH_LEFT
 config ZMK_KEYBOARD_NAME
-	default "The Paintbrush"
+	default "The Paintbrush L"
+
+endif
+
+if SHIELD_THE_PAINTBRUSH_RIGHT
+config ZMK_KEYBOARD_NAME
+	default "The Paintbrush R"
+
+endif
+
+if SHIELD_THE_PAINTBRUSH_LEFT || SHIELD_THE_PAINTBRUSH_RIGHT
 
 config I2C
 	default y
