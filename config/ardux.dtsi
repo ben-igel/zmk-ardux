@@ -502,9 +502,9 @@
 			label = "Math";
 			bindings = <
 				LEADING_NONES
-				&kp KP_PLUS                        &kp KP_MULTIPLY  &mo LAYER_ID_MATH  &none
+				&kp KP_PLUS                        &kp KP_MULTIPLY  &mo LAYER_ID_MATH  &kp LC(KP_PLUS)
 				MIDDLE_NONES
-				&kp KP_MINUS                      &kp KP_DIVIDE   &none   &none 
+				&kp KP_MINUS                      &kp KP_DIVIDE   &none   &kp LC(KP_MINUS) 
 				TRAILING_NONES
 			>;
 		};
@@ -512,9 +512,9 @@
 			label = "Media";
 			bindings = <
 				LEADING_NONES
-				&kp C_VOL_UP                        &kp C_PLAY  &kp C_NEXT  &none
+				&kp C_VOL_UP                        &kp C_PLAY  &kp C_NEXT  &kp RS(DOT)
 				MIDDLE_NONES
-				&kp C_VOL_DN                      &mo LAYER_ID_MEDIA   &kp C_PREV   &none 
+				&kp C_VOL_DN                      &mo LAYER_ID_MEDIA   &kp C_PREV   &kp (COMMA)  
 				TRAILING_NONES
 			>;
 		};
@@ -676,9 +676,9 @@
 			label = "Math";
 			bindings = <
 				LEADING_NONES
-				&kp KP_PLUS                        &kp KP_MULTIPLY  &mo LAYER_ID_MATH  &none
+				&kp KP_PLUS                        &kp KP_MULTIPLY  &mo LAYER_ID_MATH  &kp LC(KP_PLUS)
 				MIDDLE_NONES
-				&kp KP_MINUS                      &kp KP_DIVIDE   &none   &none 
+				&kp KP_MINUS                      &kp KP_DIVIDE   &none   &kp LC(KP_MINUS) 
 				TRAILING_NONES
 			>;
 		};
@@ -686,9 +686,9 @@
 			label = "Media";
 			bindings = <
 				LEADING_NONES
-				&kp C_VOL_UP                        &kp C_PLAY  &kp C_NEXT  &none
+				&kp C_VOL_UP                        &kp C_PLAY  &kp C_NEXT  &kp RS(DOT)
 				MIDDLE_NONES
-				&kp C_VOL_DN                      &mo LAYER_ID_MEDIA   &kp C_PREV   &none 
+				&kp C_VOL_DN                      &mo LAYER_ID_MEDIA   &kp C_PREV   &kp (COMMA) 
 				TRAILING_NONES
 			>;
 		};
