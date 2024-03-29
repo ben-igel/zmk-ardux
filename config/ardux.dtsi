@@ -514,7 +514,7 @@
 				LEADING_NONES
 				&kp C_VOL_UP                        &kp C_PLAY  &kp C_NEXT  &kp RS(DOT)
 				MIDDLE_NONES
-				&kp C_VOL_DN                      &mo LAYER_ID_MEDIA   &kp C_PREV   &kp (COMMA)  
+				&kp C_VOL_DN                      &mo LAYER_ID_MEDIA   &kp C_PREV   &kp RS(COMMA)  
 				TRAILING_NONES
 			>;
 		};
@@ -688,7 +688,7 @@
 				LEADING_NONES
 				&kp C_VOL_UP                        &kp C_PLAY  &kp C_NEXT  &kp RS(DOT)
 				MIDDLE_NONES
-				&kp C_VOL_DN                      &mo LAYER_ID_MEDIA   &kp C_PREV   &kp (COMMA) 
+				&kp C_VOL_DN                      &mo LAYER_ID_MEDIA   &kp C_PREV   &kp RS(COMMA) 
 				TRAILING_NONES
 			>;
 		};
