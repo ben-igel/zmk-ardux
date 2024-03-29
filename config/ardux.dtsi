@@ -317,7 +317,7 @@
 		combo_esc              { timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_A KEY_R KEY_O>; bindings = <&kp ESC>; };
 		combo_layer_navigation { timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_R KEY_E KEY_I>; bindings = <&tog LAYER_ID_NAVIGATION>; };
 
-		combo_layer_fn { timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_A KEY_Y KEY_T>; bindings = <&tog LAYER_ID_FN>; };
+		combo_layer_fn { timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_A KEY_Y KEY_T>; bindings = <&sl LAYER_ID_FN>; };
 		combo_layer_numlock { timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_T KEY_Y KEY_O>; bindings = <&tog LAYER_ID_NUMLOCK>; };
 
 		combo_m            { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_Y KEY_I KEY_O>; bindings = <&kp M>; };
