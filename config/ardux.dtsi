@@ -355,7 +355,7 @@
 		****************************************/
 		// combo_boot          { timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_R KEY_T KEY_E KEY_O>; bindings = <&bootloader>; };
 	};
-
+/*
 	macros {
 
        	 bt_disc: bt_disc {
@@ -366,7 +366,7 @@
         };
     };
 
-
+*/
 
 };
 
