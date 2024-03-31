@@ -349,7 +349,7 @@
 
 		combo_ralt           { timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_E KEY_R KEY_T KEY_S>; bindings = <&sk RALT>; };
 		combo_reset_layer       { timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_E KEY_R KEY_T KEY_O>; bindings = <&to LAYER_ID_BASE>; };
-		// combo_reset_kb       { timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_A KEY_S KEY_Y KEY_I>; bindings = <&reset>; };
+		combo_reset_kb       { timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_A KEY_S KEY_Y KEY_I>; bindings = <&reset>; };
  		/**************************************
 		* eigenes
 		****************************************/
