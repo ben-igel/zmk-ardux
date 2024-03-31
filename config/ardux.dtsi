@@ -355,18 +355,19 @@
 		****************************************/
 		// combo_boot          { timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_R KEY_T KEY_E KEY_O>; bindings = <&bootloader>; };
 	};
-/*
+
 	macros {
 
        	 bt_disc: bt_disc {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&bt BT_DISC 1 &bt BT_DISC 2 &bt BT_SEL 0>;
+            // bindings = <&bt BT_DISC 1 &bt BT_DISC 2 &bt BT_SEL 0>;
+	    bindings = <&bt BT_SEL 0>;
             label = "BT_DISC";
         };
     };
 
-*/
+
 
 };
 
