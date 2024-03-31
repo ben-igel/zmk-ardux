@@ -357,7 +357,7 @@
 	};
 };
 
-
+/*
 macros {
 
         bt_disc: bt_disc {
@@ -367,7 +367,7 @@ macros {
             label = "BT_DISC";
         };
     };
-
+*/
 
 
 
