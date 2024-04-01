@@ -21,6 +21,4 @@ config SSD1306
 config SSD1306_REVERSE_MODE
 	default y
 
-endchoice
-
 endif
