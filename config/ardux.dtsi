@@ -502,7 +502,7 @@
 			label = "BT";
 			bindings = <
 				LEADING_NONES
-				&bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 ARDUX_BT_TOP
+				&bt_disc &bt BT_SEL 1 &bt BT_SEL 2 ARDUX_BT_TOP
 				MIDDLE_NONES
 				&bt BT_SEL 3 &bt BT_SEL 4 &bootloader ARDUX_BT_BOTTOM
 				TRAILING_NONES
@@ -676,7 +676,7 @@
 			label = "BT";
 			bindings = <
 				LEADING_NONES
-				&bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 ARDUX_BT_TOP
+				&bt_disc &bt BT_SEL 1 &bt BT_SEL 2 ARDUX_BT_TOP
 				MIDDLE_NONES
 				&bt BT_SEL 3 &bt BT_SEL 4 &bootloader ARDUX_BT_BOTTOM
 				TRAILING_NONES
