@@ -10,15 +10,3 @@ config ZMK_KEYBOARD_NAME
 
 endif
 
-if SHIELD_THE_PAINTBRUSH_LEFT || SHIELD_THE_PAINTBRUSH_RIGHT
-
-config I2C
-	default y
-
-config SSD1306
-	default y
-
-config SSD1306_REVERSE_MODE
-	default y
-
-endif
