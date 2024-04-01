@@ -4,6 +4,7 @@
 # control, add individual board + shield combinations to
 # the `include` property, e.g:
 #
+---
 board: [ "nice_nano_v2" ]
 shield: [ "the_paintbrush_left" ]
 # include:
@@ -11,4 +12,4 @@ shield: [ "the_paintbrush_left" ]
 #   - board: nice_nano_v2
 #     shield: reviung41
 #
----
+# ---
