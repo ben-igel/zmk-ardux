@@ -563,7 +563,7 @@
 				LEADING_NONES
 				&kp LC(C)                       &kp LC(V)  &kp LG(LS(N3))  &kp PRINTSCREEN
 				MIDDLE_NONES
-				&kp LC(X)                      &kp LC(Y)   &mo LAYER_ID_COP   &kp LC(Z) 
+				&kp LC(X)                      &kp LC(Y)   &mo LAYER_ID_COP   &kp LC(LS(Y)) 
 				TRAILING_NONES
 			>;
 		};
@@ -737,7 +737,7 @@
 				LEADING_NONES
 				&kp LC(C)                       &kp LC(V)  &kp LG(LS(N3))  &kp PRINTSCREEN
 				MIDDLE_NONES
-				&kp LC(X)                      &kp LC(Y)   &mo LAYER_ID_COP   &kp LC(Z) 
+				&kp LC(X)                      &kp LC(Y)   &mo LAYER_ID_COP   &kp LC(LS(Y)) 
 				TRAILING_NONES
 			>;
 		};
