@@ -1,1 +1,11 @@
+if SHIELD_PCBPB_LEFT
+config ZMK_KEYBOARD_NAME
+	default "pcbpb L"
 
+endif
+
+if SHIELD_PCBPB_RIGHT
+config ZMK_KEYBOARD_NAME
+	default "pcbpb R"
+
+endif
