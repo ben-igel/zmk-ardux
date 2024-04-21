@@ -6,7 +6,7 @@
 #
 ---
 board: [ "nice_nano_v2" ]
-shield: [ "the_paintbrush_left", "the_paintbrush_right" ]
+shield: [ "the_paintbrush_left", "the_paintbrush_right", "pcbpb_left", "pcbpb_right" ]
 # include:
 #   - board: bdn9_rev2
 #   - board: nice_nano_v2
