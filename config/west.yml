@@ -5,9 +5,9 @@ manifest:
     - name: zmk-ardux
       url-base: https://github.com/arduxio
   projects:
-    - name: zmk
-      remote: zmkfirmware
-      revision: zmkfirmware#2027
+    - name: zmkfirmware#2027
+      remote: zmk-ardux
+      revision: main
       import: app/west.yml
   self:
     path: config
