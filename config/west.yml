@@ -8,8 +8,6 @@ manifest:
       url-base: https://github.com/petejohanson/zmk.git
   projects:
     - name: zmkfirmware
-      remote: zmk-ardux
-      revision: main
       remote: petejohanson
       revision: feat/pointers-move-scroll
       import: app/west.yml
