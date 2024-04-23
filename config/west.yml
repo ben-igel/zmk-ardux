@@ -4,7 +4,7 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: zmk-ardux
       url-base: https://github.com/arduxio
-     - name: petejohanson
+    - name: petejohanson
       url-base: https://github.com/petejohanson/zmk.git
   projects:
     - name: zmkfirmware
