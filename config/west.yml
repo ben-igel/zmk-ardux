@@ -7,7 +7,7 @@ manifest:
     - name: petejohanson
       url-base: https://github.com/petejohanson
   projects:
-      - name: zmk                              # This is the name of the repository.
+    - name: zmk                              # This is the name of the repository.
       remote: petejohanson                   # This is the name of the "remote" configured above.
       revision: feat/pointers-move-scroll    # This is the branch you want to use from the repository.
       import: app/west.yml                   # You are using this as the replacement "zmk" repository to build from. ZMK needs this to build successfully.
