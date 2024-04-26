@@ -339,7 +339,7 @@
 		combo_doppelp_2     { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_A KEY_E KEY_Y>; bindings = <&kp LS(DOT)>; };
 		combo_strichp_2     { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_A KEY_E KEY_I>; bindings = <&kp LS(COMMA)>; };
 		combo_unterst_2     { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_A KEY_E KEY_O>; bindings = <&kp LS(SLASH)>; };
-                combo_ctrl_latch    { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_A KEY_S KEY_E>; bindings = <&kp LCTRL>; };
+                combo_ctrl_latch    { timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_A KEY_S KEY_E>; bindings = <&kp LCTRL>; };
 		combo_ctrl_tog      { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_T KEY_S KEY_E>; bindings = <&kt LCTRL>; };
 
 		combo_q_2           { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_A KEY_T KEY_O>; bindings = <&kp Q>; };
