@@ -117,7 +117,7 @@
  *    https://github.com/zmkfirmware/zmk/issues/905
  *****************************************/
 #if !defined TIMEOUT_COMBO_2
-#define TIMEOUT_COMBO_2 100
+#define TIMEOUT_COMBO_2 75
 #endif
 #if !defined TIMEOUT_COMBO_3
 #define TIMEOUT_COMBO_3 125
@@ -179,8 +179,8 @@
  * Turn on the ARDUX_COLEMAK definition above if you want this change
  *****************************************/
 #define ARDUX_BASE_A A
-#define ARDUX_BASE_R R
-#define ARDUX_BASE_T T
+#define ARDUX_BASE_R T
+#define ARDUX_BASE_T R
 #define ARDUX_BASE_S O
 #define ARDUX_BASE_E E
 #define ARDUX_BASE_Y N
