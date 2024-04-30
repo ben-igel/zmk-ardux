@@ -1,3 +1,10 @@
+## my way of ardux
+
+the commit i use is called main_new
+
+the pdf shows the layout
+
+
 # ZMK ARDUX Implementation
 
 This repo contains the [ZMK](https://zmkfirmware.dev/) ARDUX implementation and pre-built firmware for boards that have been setup to use ARDUX by the core ARDUX development team.
