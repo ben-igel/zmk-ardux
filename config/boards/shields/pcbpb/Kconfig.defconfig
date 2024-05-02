@@ -8,4 +8,4 @@ if SHIELD_PCBPB_RIGHT
 config ZMK_KEYBOARD_NAME
 	default "pcbpb R"
 
-
+endif
