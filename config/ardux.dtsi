@@ -667,7 +667,7 @@
 				LEADING_NONES
 				&kp LS(GRAVE)                                            &kp LS(NUMBER_1)  &kp RA(E)  &kp LS(N5) 
 				MIDDLE_NONES
-				&mo LAYER_ID_SYMBOLS                                &kp LS(MINUS) &kp RA (Q)  &kp LS(N6)
+				&mo LAYER_ID_SYMBOLS                                &kp LS(MINUS) &kp AT &kp LS(N6)
 				TRAILING_NONES
 			>;
 		};
