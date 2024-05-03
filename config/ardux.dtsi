@@ -296,8 +296,8 @@
 		combo_fn11   { layers = <LAYER_ID_FN>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_T KEY_S>; bindings = <&kp F11>; };
 		combo_fn12   { layers = <LAYER_ID_FN>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_E KEY_Y>; bindings = <&kp F12>; };
 
-		combo_home   { layers = <LAYER_ID_CUSTOM>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_A KEY_E>; bindings = <&kp HOME>; };
-		combo_end   { layers = <LAYER_ID_CUSTOM>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_T KEY_I>; bindings = <&kp END>; };
+		combo_home   { layers = <LAYER_ID_CUSTOM>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_A KEY_R>; bindings = <&kp HOME>; };
+		combo_end   { layers = <LAYER_ID_CUSTOM>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_R KEY_T>; bindings = <&kp END>; };
 
 		//combo_screen_mac   { layers = <LAYER_ID_ ???? >; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_E KEY_Y>; bindings = <&kp LG(LS(N3))>; };
 		
