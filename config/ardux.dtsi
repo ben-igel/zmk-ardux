@@ -494,7 +494,7 @@
 			label = "ARDUX";
 			bindings = <
 				LEADING_NONES
-				&layer_parentheticals_kp LAYER_ID_PARENTHETICALS ARDUX_BASE_A  &kp ARDUX_BASE_R     &layer_math_kp LAYER_ID_MATH ARDUX_BASE_T     &layer_numbers_kp LAYER_ID_NUMBERS ARDUX_BASE_S
+				&layer_parentheticals_kp LAYER_ID_PARENTHETICALS ARDUX_BASE_A  &layer_combos_kp LAYER_ID_COMBOS ARDUX_BASE_R     &layer_math_kp LAYER_ID_MATH ARDUX_BASE_T     &layer_numbers_kp LAYER_ID_NUMBERS ARDUX_BASE_S
 				MIDDLE_NONES
 				&layer_symbols_kp LAYER_ID_SYMBOLS ARDUX_BASE_E                &layer_media_kp LAYER_ID_MEDIA ARDUX_BASE_Y     &layer_cop_kp LAYER_ID_COP ARDUX_BASE_I     &layer_custom_kp LAYER_ID_CUSTOM ARDUX_BASE_O
 				TRAILING_NONES
@@ -678,7 +678,7 @@
 			label = "ARDUX";
 			bindings = <
 				LEADING_NONES
-				&layer_parentheticals_kp LAYER_ID_PARENTHETICALS ARDUX_BASE_A  &kp ARDUX_BASE_R     &layer_math_kp LAYER_ID_MATH ARDUX_BASE_T     &layer_numbers_kp LAYER_ID_NUMBERS ARDUX_BASE_S
+				&layer_parentheticals_kp LAYER_ID_PARENTHETICALS ARDUX_BASE_A  &layer_combos_kp LAYER_ID_COMBOS ARDUX_BASE_R     &layer_math_kp LAYER_ID_MATH ARDUX_BASE_T     &layer_numbers_kp LAYER_ID_NUMBERS ARDUX_BASE_S
 				MIDDLE_NONES
 				&layer_symbols_kp LAYER_ID_SYMBOLS ARDUX_BASE_E                &layer_media_kp LAYER_ID_MEDIA ARDUX_BASE_Y     &layer_cop_kp LAYER_ID_COP ARDUX_BASE_I     &layer_custom_kp LAYER_ID_CUSTOM ARDUX_BASE_O
 				TRAILING_NONES
