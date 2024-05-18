@@ -317,7 +317,7 @@
 		//combo_next_track   { layers = <LAYER_ID_CUSTOM>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_R KEY_T>; bindings = <&kp C_NEXT>; };
 
 		combo_dollar   { layers = <LAYER_ID_SYMBOLS>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_R KEY_T>; bindings = <&kp LS(N4)>; };
-		combo_para   { layers = <LAYER_ID_SYMBOLS>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_Y KEY_I>; bindings = <&kp LS(N3)>; };
+		combo_anf   { layers = <LAYER_ID_SYMBOLS>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_Y KEY_I>; bindings = <&kp LS(N2)>; };
 		combo_tilde   { layers = <LAYER_ID_SYMBOLS>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_T KEY_S>; bindings = <&kp RA(RIGHT_BRACKET)>; };
 		combo_raute   { layers = <LAYER_ID_SYMBOLS>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_I KEY_O>; bindings = <&kp NON_US_HASH>; };
 		combo_accent   { layers = <LAYER_ID_SYMBOLS>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_R KEY_S>; bindings = <&kp EQUAL >; };
@@ -356,7 +356,7 @@
 		combo_unterst_2     { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_A KEY_E KEY_O>; bindings = <&kp LS(SLASH)>; };
                 combo_ctrl_latch    { timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_A KEY_S KEY_E>; bindings = <&kp LCTRL>; };
 		combo_ctrl_tog      { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_T KEY_S KEY_E>; bindings = <&kt LCTRL>; };
-		combo_anfuehr      { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_T KEY_R KEY_E>; bindings = <&kt LS(N2)>; };
+		combo_anfuehr      { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_T KEY_R KEY_E>; bindings = <&kt LS(N2)>; };
 
 
 		combo_q_2           { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_A KEY_T KEY_O>; bindings = <&kp Q>; };
