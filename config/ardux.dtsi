@@ -363,6 +363,7 @@
 		combo_tab_2         { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_A KEY_R KEY_I>; bindings = <&kp TAB>; };
 
 		combo_sch           { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_R KEY_I KEY_O>; bindings = <&m_sch>; };
+		combo_ch           { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_A KEY_I KEY_O>; bindings = <&m_ch>; };
 
 		/*****************************************
 		 * 4 key combos
@@ -400,6 +401,12 @@
             #binding-cells = <0>;
             bindings = <&kp S &kp C &kp H>;
             label = "M_SCH";
+        };
+	m_ch: m_ch {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp H>;
+            label = "M_CH";
         };
     };
 
