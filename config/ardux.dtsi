@@ -608,9 +608,9 @@
 			label = "Combos";
 			bindings = <
 				LEADING_NONES
-				&kp F13 &mo LAYER_ID_COMBOS &kp F14 &kp F15
+				&kp LG(LC(A)) &mo LAYER_ID_COMBOS &kp F8 &kp F9
 				MIDDLE_NONES
-				&kp F16 &kp LG(N) &kp F17 &kp F18
+				&kp LG(LC(E)) &kp LG(N) &kp F10 &kp F11
 				TRAILING_NONES
 			>;
 		};
@@ -792,9 +792,9 @@
 			label = "Combos";
 			bindings = <
 				LEADING_NONES
-				&kp F13 &mo LAYER_ID_COMBOS &kp F14 &kp F15
+				&kp LG(LC(A)) &mo LAYER_ID_COMBOS &kp F8 &kp F9
 				MIDDLE_NONES
-				&kp F16 &kp LG(N) &kp F17 &kp F18
+				&kp LG(LC(E)) &kp LG(N) &kp F10 &kp F11
 				TRAILING_NONES
 			>;
 		};
