@@ -371,6 +371,8 @@
 		combo_sch           { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_R KEY_I KEY_O>; bindings = <&m_sch>; };
 		combo_ch           { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_A KEY_I KEY_O>; bindings = <&m_ch>; };
 
+		combo_alt_ctrl        { timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_E KEY_I KEY_S>; bindings = <&sk LC(LALT)>; };
+
 		/*****************************************
 		 * 4 key combos
 		 *****************************************/
