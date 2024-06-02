@@ -260,9 +260,9 @@
 		combo_k           { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_Y KEY_O>; bindings = <&kp K>; };
 		combo_period      { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_A KEY_Y>; bindings = <&kp DOT>; };
 		combo_comma       { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_A KEY_I>; bindings = <&kp COMMA>; };
-		combo_slash       { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_A KEY_O>; bindings = <&kp SLASH>; };
+		combo_w_2       { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_A KEY_O>; bindings = <&kp W>; };
 		// combo_exclamation { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_T KEY_I>; bindings = <&kp EXCL>; };
-		//combo_apost       { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_T KEY_E>; bindings = <&kp LS(NON_US_HASH)>; };
+		combo_apost       { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_T KEY_E>; bindings = <&kp LS(NON_US_HASH)>; };
 		
 		combo_seven { layers = <LAYER_ID_NUMBERS>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_A KEY_R>; bindings = <&kp N7>; };
 		combo_eight { layers = <LAYER_ID_NUMBERS>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_R KEY_T>; bindings = <&kp N8>; };
@@ -357,10 +357,10 @@
 		//combo_unterst       { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_A KEY_S KEY_O>; bindings = <&kp LS(SLASH)>; };
 		combo_doppelp_2     { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_A KEY_E KEY_Y>; bindings = <&kp LS(DOT)>; };
 		combo_strichp_2     { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_A KEY_E KEY_I>; bindings = <&kp LS(COMMA)>; };
-		combo_unterst_2     { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_A KEY_E KEY_O>; bindings = <&kp LS(SLASH)>; };
+		//combo_unterst_2     { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_A KEY_E KEY_O>; bindings = <&kp LS(SLASH)>; };
                 combo_ctrl_latch    { timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_A KEY_S KEY_E>; bindings = <&kp LCTRL>; };
 		combo_ctrl_tog      { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_T KEY_S KEY_E>; bindings = <&kt LCTRL>; };
-		combo_apos      { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_T KEY_R KEY_E>; bindings = <&kp LS(NON_US_HASH)>; };
+		combo_anfu      { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_T KEY_R KEY_E>; bindings = <&kp LS(N2)>; };
 
 
 		combo_q_2           { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_A KEY_T KEY_O>; bindings = <&kp Q>; };
@@ -372,6 +372,9 @@
 		combo_ch           { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_A KEY_I KEY_O>; bindings = <&m_ch>; };
 
 		combo_alt_ctrl        { timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_E KEY_I KEY_S>; bindings = <&sk LC(LALT)>; };
+
+
+		combo_bindest_2     { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_A KEY_E KEY_O>; bindings = <&kp SLASH>; };
 
 		/*****************************************
 		 * 4 key combos
@@ -389,7 +392,8 @@
 		combo_reset_layer       { timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_E KEY_R KEY_T KEY_O>; bindings = <&to LAYER_ID_BASE>; };
 		combo_reset_kb       { timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_A KEY_S KEY_Y KEY_I>; bindings = <&sys_reset>; };
 
-		combo_anfue      { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_A KEY_R KEY_T KEY_E>; bindings = <&kp LS(N2)>; };
+		//combo_anfue      { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_A KEY_R KEY_T KEY_E>; bindings = <&kp LS(N2)>; };
+		combo_unterst_3     { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_A KEY_E KEY_Y KEY_I>; bindings = <&kp LS(SLASH)>; };
 
 		combo_ck           { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_A KEY_R KEY_I KEY_O>; bindings = <&m_ck>; };
  		/**************************************
