@@ -7,6 +7,13 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
+
+
+
+
+
+
+
 // nothing new
 /*****************************************
  * Macros for filling in "&none" in the right places in the keymap for re-use needs
@@ -410,6 +417,7 @@
             bindings = <&bt BT_SEL 0 &bt BT_DISC 1 &bt BT_DISC 2 &bt BT_DISC 3 &bt BT_DISC 5>;
 	    // bindings = <&bt BT_SEL 0>;
             label = "BT_DISC";
+		zmk_ble_prof_disconnect2;
         };
 
 	m_sch: m_sch {
