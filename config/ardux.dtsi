@@ -417,7 +417,7 @@
             bindings = <&bt BT_SEL 0 &bt BT_DISC 1 &bt BT_DISC 2 &bt BT_DISC 3 &bt BT_DISC 5>;
 	    // bindings = <&bt BT_SEL 0>;
             label = "BT_DISC";
-		zmk_ble_prof_disconnect2;
+		zmk_ble_prof_disconnect(2);
         };
 
 	m_sch: m_sch {
