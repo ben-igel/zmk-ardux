@@ -1,13 +1,13 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+      url-base: https://github.com/Percentnineteen/zmk.git
     - name: zmk-ardux
       url-base: https://github.com/arduxio
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: advertise_profile
       import: app/west.yml
   self:
     path: config
