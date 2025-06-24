@@ -7,7 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
-
+#include <dt-bindings/zmk/pointing.h>
 
 
 
@@ -223,9 +223,11 @@
 #define LAYER_ID_COP 9
 #define LAYER_ID_NUMLOCK 10
 #define LAYER_ID_COMBOS 11
-#define LAYER_ID_CUSTOM 12
-#define LAYER_ID_BIG_SYM 13
-#define LAYER_ID_BIG_FUNCTION 14
+#define LAYER_ID_MOUSE 12
+#define LAYER_ID_CUSTOM 13
+#define LAYER_ID_BIG_SYM 14
+#define LAYER_ID_BIG_FUNCTION 15
+
 
 
 
@@ -346,7 +348,7 @@
 		combo_layer_navigation { timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_R KEY_E KEY_I>; bindings = <&tog LAYER_ID_NAVIGATION>; };
 
 		combo_layer_fn { timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_A KEY_Y KEY_T>; bindings = <&sl LAYER_ID_FN>; };
-		combo_layer_numlock { timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_T KEY_Y KEY_O>; bindings = <&tog LAYER_ID_NUMLOCK>; };
+		combo_layer_mouse { timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_T KEY_Y KEY_O>; bindings = <&tog LAYER_ID_MOUSE>; };
 
 		combo_m            { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_Y KEY_I KEY_O>; bindings = <&kp M>; };
 		combo_d            { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_A KEY_R KEY_T>; bindings = <&kp O>; };
@@ -491,6 +493,9 @@
 						#binding-cells = <2>; tapping_term_ms = <TIMEOUT_LAYER_HOLD>; flavor = "tap-preferred";
 						bindings = <&mo>, <&kp>; };
 		layer_combos_kp: layer_combos_kp { compatible = "zmk,behavior-hold-tap"; label = "layer_combos_kp";
+						#binding-cells = <2>; tapping_term_ms = <TIMEOUT_LAYER_HOLD>; flavor = "tap-preferred";
+						bindings = <&mo>, <&kp>; };
+		layer_mouse: layer_mouse { compatible = "zmk,behavior-hold-tap"; label = "layer_mouse";
 						#binding-cells = <2>; tapping_term_ms = <TIMEOUT_LAYER_HOLD>; flavor = "tap-preferred";
 						bindings = <&mo>, <&kp>; };
 	};
@@ -641,6 +646,16 @@
 				&kp LG(LC(A)) &mo LAYER_ID_COMBOS &kp F8 &kp F9
 				MIDDLE_NONES
 				&kp LG(LC(E)) &kp LG(N) &kp F10 &kp F11
+				TRAILING_NONES
+			>;
+		};
+		mouse {
+			label = "Mouse";
+			bindings = <
+				LEADING_NONES
+				&mkp LCLK                                            &mmv MOVE_UP    &mkp RCLK   &msc SCRL_UP
+				MIDDLE_NONES
+				 &mmv MOVE_LEFT &mmv MOVE_DOWN  &mmv MOVE_RIGHT &msc SCRL_DOWN
 				TRAILING_NONES
 			>;
 		};
@@ -825,6 +840,16 @@
 				&kp LG(LC(A)) &mo LAYER_ID_COMBOS &kp F8 &kp F9
 				MIDDLE_NONES
 				&kp LG(LC(E)) &kp LG(N) &kp F10 &kp F11
+				TRAILING_NONES
+			>;
+		};
+		mouse {
+			label = "Mouse";
+			bindings = <
+				LEADING_NONES
+				&mkp LCLK                                            &mmv MOVE_UP    &mkp RCLK   &msc SCRL_UP
+				MIDDLE_NONES
+				 &mmv MOVE_RIGHT &mmv MOVE_DOWN  &mmv MOVE_LEFT &msc SCRL_DOWN
 				TRAILING_NONES
 			>;
 		};
