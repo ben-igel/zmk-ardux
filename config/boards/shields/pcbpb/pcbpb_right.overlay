@@ -36,6 +36,7 @@
 		compatible = "zmk,kscan-gpio-direct";
 		label = "KSCAN";
  		wakeup-source;
+/*
 input-gpios
 			= <&pro_micro_d 21 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             , <&pro_micro_d 20 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
@@ -57,7 +58,7 @@ input-gpios
             , <&pro_micro_d 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             , <&pro_micro_d 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
 			;
-
+*/
 input-gpios
 			= <&pro_micro_d 21 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             , <&pro_micro_d 20 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
@@ -68,7 +69,7 @@ input-gpios
             , <&pro_micro_d 16 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             , <&pro_micro_d 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
 			;
-*/
+
 
 	};
 };
