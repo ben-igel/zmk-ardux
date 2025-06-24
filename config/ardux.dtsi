@@ -224,9 +224,10 @@
 #define LAYER_ID_NUMLOCK 10
 #define LAYER_ID_COMBOS 11
 #define LAYER_ID_MOUSE 12
-#define LAYER_ID_CUSTOM 13
-#define LAYER_ID_BIG_SYM 14
-#define LAYER_ID_BIG_FUNCTION 15
+#define LAYER_ID_MOUSE_B 13
+#define LAYER_ID_CUSTOM 14
+#define LAYER_ID_BIG_SYM 15
+#define LAYER_ID_BIG_FUNCTION 16
 
 
 
@@ -499,6 +500,9 @@
 		layer_mouse: layer_mouse { compatible = "zmk,behavior-hold-tap"; label = "layer_mouse";
 						#binding-cells = <2>; tapping_term_ms = <TIMEOUT_LAYER_HOLD>; flavor = "tap-preferred";
 						bindings = <&mo>, <&kp>; };
+		layer_mouseb: layer_mouseb { compatible = "zmk,behavior-hold-tap"; label = "layer_mouseb";
+						#binding-cells = <2>; tapping_term_ms = <TIMEOUT_LAYER_HOLD>; flavor = "tap-preferred";
+						bindings = <&mo>, <&kp>; };
 	};
 };
 
@@ -654,9 +658,19 @@
 			label = "Mouse";
 			bindings = <
 				LEADING_NONES
-				&mkp LCLK                                            &mmv MOVE_UP    &mkp RCLK   &msc SCRL_DOWN
+				&mkp LCLK                                            &mmv MOVE_UP    &mo  LAYER_ID_MOUSE_B &msc SCRL_DOWN
 				MIDDLE_NONES
 				 &mmv MOVE_LEFT &mmv MOVE_DOWN  &mmv MOVE_RIGHT &msc SCRL_UP
+				TRAILING_NONES
+			>;
+		};
+		mouseb {
+			label = "MouseB";
+			bindings = <
+				LEADING_NONES
+				&mkp RCLK                                            &mkp LCLK    &mo  LAYER_ID_MOUSE_B &msc SCRL_RIGHT
+				MIDDLE_NONES
+				 &mkp MB4 &mkp MCLK  &mkp MB5 &msc SCRL_LEFT
 				TRAILING_NONES
 			>;
 		};
@@ -851,6 +865,16 @@
 				&mkp LCLK                                            &mmv MOVE_UP    &mkp RCLK   &msc SCRL_UP
 				MIDDLE_NONES
 				 &mmv MOVE_RIGHT &mmv MOVE_DOWN  &mmv MOVE_LEFT &msc SCRL_DOWN
+				TRAILING_NONES
+			>;
+		};
+		mouseb {
+			label = "MouseB";
+			bindings = <
+				LEADING_NONES
+				&mkp RCLK                                            &mkp LCLK    &mo  LAYER_ID_MOUSE_B &msc SCRL_RIGHT
+				MIDDLE_NONES
+				 &mkp MB5 &mkp MCLK  &mkp MB4 &msc SCRL_LEFT
 				TRAILING_NONES
 			>;
 		};
