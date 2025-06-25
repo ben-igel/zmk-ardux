@@ -662,7 +662,7 @@
 				LEADING_NONES
 				&mkp LCLK                  &mmv MOVE_UP    &mkp RCLK &mo  LAYER_ID_MOUSE_B
 				MIDDLE_NONES
-				 &mmv MOVE_LEFT &mmv MOVE_DOWN  &mmv MOVE_RIGHT &zip_xy_scaler 1 3 
+				 &mmv MOVE_LEFT &mmv MOVE_DOWN  &mmv MOVE_RIGHT &mo  LAYER_ID_MOUSE_B 
 				TRAILING_NONES
 			>;
 		};
@@ -672,7 +672,7 @@
 				LEADING_NONES
 				&mkp MB4            &msc SCRL_DOWN    &mkp MB5 &mo  LAYER_ID_MOUSE_B
 				MIDDLE_NONES
-				 &msc SCRL_RIGHT &msc SCRL_UP  &msc SCRL_LEFT &mkp MCLK
+				 &msc SCRL_RIGHT &msc SCRL_UP  &msc SCRL_LEFT &mo  LAYER_ID_MOUSE_B
 				TRAILING_NONES
 			>;
 		};
