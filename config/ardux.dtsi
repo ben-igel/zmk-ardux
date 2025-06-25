@@ -313,7 +313,7 @@
 		combo_fn11   { layers = <LAYER_ID_FN>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_T KEY_S>; bindings = <&kp F11>; };
 		combo_fn12   { layers = <LAYER_ID_FN>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_E KEY_Y>; bindings = <&kp F12>; };
 
-		combo_leftup   { layers = <LAYER_ID_MOUSE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_R KEY_E>; bindings = <&mmv MOVE_UP &mmv MOVE_LEFT>; };
+		// combo_leftup   { layers = <LAYER_ID_MOUSE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_R KEY_E>; bindings = <&mmv MOVE_UP &mmv MOVE_LEFT>; };
 
 
 		#if defined ARDUX_RIGHT
@@ -348,10 +348,10 @@
 		 * 3 key combos
 		 *****************************************/
 		combo_esc              { timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_A KEY_R KEY_O>; bindings = <&kp ESC>; };
-		combo_layer_navigation { timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_R KEY_E KEY_I>; bindings = <&tog LAYER_ID_NAVIGATION>; };
+		combo_layer_navigation { timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_T KEY_Y KEY_O>; bindings = <&tog LAYER_ID_NAVIGATION>; };
 
 		combo_layer_fn { timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_A KEY_Y KEY_T>; bindings = <&sl LAYER_ID_FN>; };
-		combo_layer_mouse { timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_T KEY_Y KEY_O>; bindings = <&tog LAYER_ID_MOUSE>; };
+		combo_layer_mouse { timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_R KEY_E KEY_I>; bindings = <&tog LAYER_ID_MOUSE>; };
 		combo_layer_numlock { timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_R KEY_S KEY_I>; bindings = <&tog LAYER_ID_NUMLOCK>; };
 
 		combo_m            { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_Y KEY_I KEY_O>; bindings = <&kp M>; };
