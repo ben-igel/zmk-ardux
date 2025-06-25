@@ -668,7 +668,7 @@
 		};
 		mouseb {
 			label = "MouseB";
-			bindings = <&zip_xy_scaler
+			bindings = <
 				LEADING_NONES
 				&mkp MB4            &msc SCRL_DOWN    &mkp MB5 &mo  LAYER_ID_MOUSE_B
 				MIDDLE_NONES
