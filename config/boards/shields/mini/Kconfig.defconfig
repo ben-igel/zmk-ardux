@@ -1,10 +1,10 @@
-if SHIELD_PCBPB_LEFT
+if SHIELD_MINI_LEFT
 config ZMK_KEYBOARD_NAME
 	default "minipbL"
 
 endif
 
-if SHIELD_PCBPB_RIGHT
+if SHIELD_MINI_RIGHT
 config ZMK_KEYBOARD_NAME
 	default "minipb"
 
