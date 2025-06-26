@@ -447,12 +447,33 @@
             bindings = <&kp C &kp K>;
             label = "M_CK";
         };
-	nudge: nudge {
+	nudge_l: nudge_l {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap_time 20>,
 			<&macro_tap &mmv MOVE_X(-20000)>;
-            label = "NUDGE";
+            label = "NUDGE_L";
+        };
+	nudge_r: nudge_r {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap_time 20>,
+			<&macro_tap &mmv MOVE_X(20000)>;
+            label = "NUDGE_R";
+        };
+	nudge_u: nudge_u {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap_time 20>,
+			<&macro_tap &mmv MOVE_Y(20000)>;
+            label = "NUDGE_U";
+        };
+	nudge_d: nudge_d {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap_time 20>,
+			<&macro_tap &mmv MOVE_Y(-20000)>;
+            label = "NUDGE_D";
         };
     };
 
@@ -509,9 +530,18 @@
 		layer_combos_kp: layer_combos_kp { compatible = "zmk,behavior-hold-tap"; label = "layer_combos_kp";
 						#binding-cells = <2>; tapping_term_ms = <TIMEOUT_LAYER_HOLD>; flavor = "tap-preferred";
 						bindings = <&mo>, <&kp>; };
-		nudge_mouse: nudge_mouse { compatible = "zmk,behavior-hold-tap"; label = "nudge_mouse";
+		nudge_mouse_l: nudge_mouse_l { compatible = "zmk,behavior-hold-tap"; label = "nudge_mouse_l";
 						#binding-cells = <2>; tapping_term_ms = <TIMEOUT_LAYER_HOLD>; flavor = "tap-preferred";
-						bindings = <&mmv>, <&nudge>; };
+						bindings = <&mmv>, <&nudge_l>; };
+		nudge_mouse_r: nudge_mouse_r { compatible = "zmk,behavior-hold-tap"; label = "nudge_mouse_r";
+						#binding-cells = <2>; tapping_term_ms = <TIMEOUT_LAYER_HOLD>; flavor = "tap-preferred";
+						bindings = <&mmv>, <&nudge_r>; };
+		nudge_mouse_u: nudge_mouse_u { compatible = "zmk,behavior-hold-tap"; label = "nudge_mouse_u";
+						#binding-cells = <2>; tapping_term_ms = <TIMEOUT_LAYER_HOLD>; flavor = "tap-preferred";
+						bindings = <&mmv>, <&nudge_u>; };
+		nudge_mouse_d: nudge_mouse_d { compatible = "zmk,behavior-hold-tap"; label = "nudge_mouse_d";
+						#binding-cells = <2>; tapping_term_ms = <TIMEOUT_LAYER_HOLD>; flavor = "tap-preferred";
+						bindings = <&mmv>, <&nudge_d>; };
 		layer_mouseb: layer_mouseb { compatible = "zmk,behavior-hold-tap"; label = "layer_mouseb";
 						#binding-cells = <2>; tapping_term_ms = <TIMEOUT_LAYER_HOLD>; flavor = "tap-preferred";
 						bindings = <&mo>, <&kp>; };
@@ -670,9 +700,9 @@
 			label = "Mouse";
 			bindings = <
 				LEADING_NONES
-				&mkp LCLK                  &nudge_mouse 0 MOVE_UP    &mkp RCLK &mo  LAYER_ID_MOUSE_B
+				&mkp LCLK                  &nudge_mouse_u 0 MOVE_UP    &mkp RCLK &mo  LAYER_ID_MOUSE_B
 				MIDDLE_NONES
-				 &nudge_mouse 0 MOVE_LEFT &nudge_mouse 0 MOVE_DOWN  &nudge_mouse  0 MOVE_RIGHT &mo  LAYER_ID_MOUSE_B 
+				 &nudge_mouse_l 0 MOVE_LEFT &nudge_mouse_d 0 MOVE_DOWN  &nudge_mouse_r  0 MOVE_RIGHT &mo  LAYER_ID_MOUSE_B 
 				TRAILING_NONES
 			>;
 		};
