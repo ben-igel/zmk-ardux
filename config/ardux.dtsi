@@ -449,7 +449,7 @@
         };
 	nudge: nudge {
             compatible = "zmk,behavior-macro";
-            #binding-cells = <2>;
+            #binding-cells = <1>;
             bindings = <&macro_tap_time 20>,
 			<&macro_tap &mmv MOVE_##XY(DIR*20000)>;
             label = "NUDGE";
