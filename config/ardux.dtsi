@@ -700,9 +700,9 @@
 			label = "Mouse";
 			bindings = <
 				LEADING_NONES
-				&mkp LCLK                  &nudge_mouse_u 0 MOVE_UP    &mkp RCLK &mo  LAYER_ID_MOUSE_B
+				&mkp LCLK                  &nudge_mouse_u 0 0    &mkp RCLK &mo  LAYER_ID_MOUSE_B
 				MIDDLE_NONES
-				 &nudge_mouse_l 0 MOVE_LEFT &nudge_mouse_d 0 MOVE_DOWN  &nudge_mouse_r  0 MOVE_RIGHT &mo  LAYER_ID_MOUSE_B 
+				 &nudge_mouse_l 0 0 &nudge_mouse_d 0 0  &nudge_mouse_r  0 0 &mo  LAYER_ID_MOUSE_B 
 				TRAILING_NONES
 			>;
 		};
