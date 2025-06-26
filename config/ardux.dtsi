@@ -669,7 +669,7 @@
 				LEADING_NONES
 				&mkp LCLK                  &mmv MOVE_UP    &mkp RCLK &mo  LAYER_ID_MOUSE_B
 				MIDDLE_NONES
-				 &nudge 0 MOVE_LEFT &mmv MOVE_DOWN  &mmv MOVE_RIGHT &mo  LAYER_ID_MOUSE_B 
+				 &nudge_mouse 0 MOVE_LEFT &mmv MOVE_DOWN  &mmv MOVE_RIGHT &mo  LAYER_ID_MOUSE_B 
 				TRAILING_NONES
 			>;
 		};
