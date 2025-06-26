@@ -448,7 +448,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap_time 100>,
-			<&macro_tap &mmv MOVE_ ## DIR * 2000>;
+			<&macro_tap &mmv MOVE_ ## * 2000>;
             label = "NUDGE";
         };
     };
