@@ -700,7 +700,7 @@
 			label = "Mouse";
 			bindings = <
 				LEADING_NONES
-				&mkp LCLK                  &nudge_mouse_u MOVE_UP 0    &mkp RCLK &mo  LAYER_ID_MOUSE_B
+				&mkp LCLK                  &nudge_mouse_u MOVE_UP 0    &mkp RCLK &mkp MCLK
 				MIDDLE_NONES
 				 &nudge_mouse_l MOVE_LEFT 0 &nudge_mouse_d MOVE_DOWN 0  &nudge_mouse_r  MOVE_RIGHT 0 &mo  LAYER_ID_MOUSE_B 
 				TRAILING_NONES
@@ -904,9 +904,9 @@
 			label = "Mouse";
 			bindings = <
 				LEADING_NONES
-				&mkp LCLK                                            &mmv MOVE_UP    &mkp RCLK &mkp MCLK
+				&mkp LCLK                  &nudge_mouse_u MOVE_UP 0    &mkp RCLK &mkp MCLK
 				MIDDLE_NONES
-				 &mmv MOVE_RIGHT &mmv MOVE_DOWN  &mmv MOVE_LEFT &mo  LAYER_ID_MOUSE_B
+				 &nudge_mouse_r MOVE_RIGHT 0 &nudge_mouse_d MOVE_DOWN 0  &nudge_mouse_l  MOVE_LEFT 0 &mo  LAYER_ID_MOUSE_B 
 				TRAILING_NONES
 			>;
 		};
@@ -914,7 +914,7 @@
 			label = "MouseB";
 			bindings = <
 				LEADING_NONES
-				&mkp MB4            &msc SCRL_DOWN    &mkp MB5 &mkp MCLK
+				&mkp MB4            &msc SCRL_DOWN    &mkp MB5 &mo  LAYER_ID_MOUSE_B
 				MIDDLE_NONES
 				 &msc SCRL_LEFT &msc SCRL_UP  &msc SCRL_RIGHT &mo  LAYER_ID_MOUSE_B
 				TRAILING_NONES
