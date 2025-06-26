@@ -465,14 +465,14 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap_time 20>,
-			<&macro_tap &mmv MOVE_Y(20000)>;
+			<&macro_tap &mmv MOVE_Y(-20000)>;
             label = "NUDGE_U";
         };
 	nudge_d: nudge_d {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_tap_time 20>,
-			<&macro_tap &mmv MOVE_Y(-20000)>;
+			<&macro_tap &mmv MOVE_Y(20000)>;
             label = "NUDGE_D";
         };
     };
@@ -700,9 +700,9 @@
 			label = "Mouse";
 			bindings = <
 				LEADING_NONES
-				&mkp LCLK                  &nudge_mouse_u 0 0    &mkp RCLK &mo  LAYER_ID_MOUSE_B
+				&mkp LCLK                  &nudge_mouse_u MOVE_UP 0    &mkp RCLK &mo  LAYER_ID_MOUSE_B
 				MIDDLE_NONES
-				 &nudge_mouse_l MOVE_LEFT 0 &nudge_mouse_d 0 0  &nudge_mouse_r  0 0 &mo  LAYER_ID_MOUSE_B 
+				 &nudge_mouse_l MOVE_LEFT 0 &nudge_mouse_d MOVE_DOWN 0  &nudge_mouse_r  MOVE_RIGHT 0 &mo  LAYER_ID_MOUSE_B 
 				TRAILING_NONES
 			>;
 		};
