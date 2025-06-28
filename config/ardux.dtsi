@@ -415,7 +415,7 @@
 		// combo_boot          { timeout-ms = <TIMEOUT_COMBO_4>; key-positions = <KEY_R KEY_T KEY_E KEY_O>; bindings = <&bootloader>; };
 	};
 
-#define SPEED 200
+#define SPEED 400
 
 
 	macros {
@@ -482,7 +482,7 @@
             #binding-cells = <1>;
             bindings = <&macro_param_1to1>,
 			<&macro_tap_time 20>,
-			<&macro_tap &mmv MOVE_X(SPEED)>;
+			<&macro_tap &mmv MOVE_X (SPEED)>;
             label = "NUDGE_CUSTOM_X";
         };
 	nudge_custom_y: nudge_custom_y {
@@ -490,7 +490,7 @@
             #binding-cells = <1>;
             bindings = <&macro_param_1to1>,
 			<&macro_tap_time 20>,
-			<&macro_tap &mmv MOVE_Y(SPEED)>;
+			<&macro_tap &mmv MOVE_Y (SPEED)>;
             label = "NUDGE_CUSTOM_Y";
         };
     };
@@ -726,7 +726,7 @@
 				LEADING_NONES
 				&mkp LCLK                  &nudge_mouse_custom_y SCRL_DOWN (-100000)    &mkp RCLK &mkp MCLK
 				MIDDLE_NONES
-				 &nudge_mouse_custom_x SCRL_RIGHT (-10000) &nudge_mouse_custom_y SCRL_UP 10000  &nudge_mouse_custom_x SCRL_LEFT 10000 &mo  LAYER_ID_MOUSE_B 
+				 &nudge_mouse_custom_x SCRL_RIGHT (-100000) &nudge_mouse_custom_y SCRL_UP 100000  &nudge_mouse_custom_x SCRL_LEFT 100000 &mo  LAYER_ID_MOUSE_B 
 				TRAILING_NONES
 			>;
 		};
