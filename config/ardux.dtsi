@@ -482,7 +482,7 @@
             #binding-cells = <1>;
             bindings = <&macro_param_1to1>,
 			<&macro_tap_time 20>,
-			<&macro_tap &mmv MOVE_X (SPEED)>;
+			<&macro_tap &mmv MOVE_X (SPEED * 1000)>;
             label = "NUDGE_CUSTOM_X";
         };
 	nudge_custom_y: nudge_custom_y {
@@ -490,7 +490,7 @@
             #binding-cells = <1>;
             bindings = <&macro_param_1to1>,
 			<&macro_tap_time 20>,
-			<&macro_tap &mmv MOVE_Y (SPEED)>;
+			<&macro_tap &mmv MOVE_Y (SPEED * 1000)>;
             label = "NUDGE_CUSTOM_Y";
         };
     };
@@ -726,9 +726,9 @@
 			label = "Mouse";
 			bindings = <
 				LEADING_NONES
-				&mkp LCLK                  &nudge_mouse_custom_y SCRL_DOWN (-100000)    &mkp RCLK &mkp MCLK
+				&mkp LCLK                  &nudge_mouse_custom_y SCRL_DOWN (-10)    &mkp RCLK &mkp MCLK
 				MIDDLE_NONES
-				 &nudge_mouse_custom_x SCRL_RIGHT (-100000) &nudge_mouse_custom_y SCRL_UP 100000  &nudge_mouse_custom_x SCRL_LEFT 100000 &mo  LAYER_ID_MOUSE_B 
+				 &nudge_mouse_custom_x SCRL_RIGHT (-20) &nudge_mouse_custom_y SCRL_UP 10  &nudge_mouse_custom_x SCRL_LEFT 20 &mo  LAYER_ID_MOUSE_B 
 				TRAILING_NONES
 			>;
 		};
