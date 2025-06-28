@@ -416,6 +416,7 @@
 	};
 
 #define SPEED 400
+#define THOUSAND 1000
 
 
 	macros {
@@ -482,7 +483,7 @@
             #binding-cells = <1>;
             bindings = <&macro_param_1to1>,
 			<&macro_tap_time 20>,
-			<&macro_tap &mmv MOVE_X (SPEED * 1000)>;
+			<&macro_tap &mmv MOVE_X (SPEED * THOUSAND)>;
             label = "NUDGE_CUSTOM_X";
         };
 	nudge_custom_y: nudge_custom_y {
@@ -490,7 +491,7 @@
             #binding-cells = <1>;
             bindings = <&macro_param_1to1>,
 			<&macro_tap_time 20>,
-			<&macro_tap &mmv MOVE_Y (SPEED * 1000)>;
+			<&macro_tap &mmv MOVE_Y (SPEED * THOUSAND)>;
             label = "NUDGE_CUSTOM_Y";
         };
     };
