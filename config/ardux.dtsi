@@ -710,7 +710,7 @@
 			label = "Mouse";
 			bindings = <
 				LEADING_NONES
-				&mkp LCLK                  &nudge_mouse_custom MOVE_UP 100    &mkp RCLK &mkp MCLK
+				&mkp LCLK                  &nudge_custom 100    &mkp RCLK &mkp MCLK
 				MIDDLE_NONES
 				 &nudge_mouse_l MOVE_LEFT 0 &nudge_mouse_d MOVE_DOWN 0  &nudge_mouse_r  MOVE_RIGHT 0 &mo  LAYER_ID_MOUSE_B 
 				TRAILING_NONES
