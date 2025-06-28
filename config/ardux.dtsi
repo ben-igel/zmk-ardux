@@ -479,7 +479,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <1>;
             bindings = <&macro_tap_time 20>,
-			<&macro_tap &mmv MOVE_Y(SPEED)>;
+			<&macro_tap &mmv MOVE_Y( SPEED )>;
             label = "NUDGE_CUSTOM";
         };
     };
