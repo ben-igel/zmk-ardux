@@ -479,7 +479,7 @@
 
 	nudge_custom_x: nudge_custom_x {
             compatible = "zmk,behavior-macro-one-param";
-            #binding-cells = <0>;
+            #binding-cells = <1>;
             bindings = <&macro_param_1to1>,
 			<&macro_tap_time 20>,
 			<&macro_tap &mmv MOVE_X (SPEED)>;
@@ -487,7 +487,7 @@
         };
 	nudge_custom_y: nudge_custom_y {
             compatible = "zmk,behavior-macro-one-param";
-            #binding-cells = <0>;
+            #binding-cells = <1>;
             bindings = <&macro_param_1to1>,
 			<&macro_tap_time 20>,
 			<&macro_tap &mmv MOVE_Y (SPEED)>;
