@@ -476,7 +476,7 @@
             label = "NUDGE_D";
         };
 	nudge_custom: nudge_custom {
-           // compatible = "zmk,behavior-macro";
+            compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
             bindings = <&macro_tap_time 20>,
 			<&macro_tap &mmv MOVE_Y(SPEED)>;
