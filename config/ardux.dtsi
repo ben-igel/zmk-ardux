@@ -721,9 +721,9 @@
 			label = "Mouse";
 			bindings = <
 				LEADING_NONES
-				&mkp LCLK                  &nudge_mouse_custom SCRL_DOWN -100000    &mkp RCLK &mkp MCLK
+				&mkp LCLK                  &nudge_mouse_custom_y SCRL_DOWN -100000    &mkp RCLK &mkp MCLK
 				MIDDLE_NONES
-				 &nudge_mouse_custom SCRL_RIGHT -10000 &nudge_mouse_custom SCRL_UP 10000  &nudge_mouse_custom SCRL_LEFT 10000 &mo  LAYER_ID_MOUSE_B 
+				 &nudge_mouse_custom_x SCRL_RIGHT -10000 &nudge_mouse_custom_y SCRL_UP 10000  &nudge_mouse_custom_x SCRL_LEFT 10000 &mo  LAYER_ID_MOUSE_B 
 				TRAILING_NONES
 			>;
 		};
