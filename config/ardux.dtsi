@@ -479,7 +479,7 @@
 
 	nudge_custom_x: nudge_custom_x {
             compatible = "zmk,behavior-macro-one-param";
-            #binding-cells = <1>;
+            #binding-cells = <0>;
             bindings = <&macro_param_1to1>,
 			<&macro_tap_time 20>,
 			<&macro_tap &mmv MOVE_X (SPEED)>;
@@ -487,7 +487,7 @@
         };
 	nudge_custom_y: nudge_custom_y {
             compatible = "zmk,behavior-macro-one-param";
-            #binding-cells = <1>;
+            #binding-cells = <0>;
             bindings = <&macro_param_1to1>,
 			<&macro_tap_time 20>,
 			<&macro_tap &mmv MOVE_Y (SPEED)>;
@@ -563,10 +563,10 @@
 
 		nudge_mouse_custom_x: nudge_mouse_custom_x { compatible = "zmk,behavior-hold-tap"; label = "nudge_mouse_custom_x";
 						#binding-cells = <2>; tapping_term_ms = <TIMEOUT_LAYER_HOLD>; flavor = "tap-preferred";
-						bindings =  <&macro_param_1to1>, <&msc>, <&nudge_custom_x>; };
+						bindings =  <&msc>, <&nudge_custom_x>; };
 		nudge_mouse_custom_y: nudge_mouse_custom_y { compatible = "zmk,behavior-hold-tap"; label = "nudge_mouse_custom_y";
 						#binding-cells = <2>; tapping_term_ms = <TIMEOUT_LAYER_HOLD>; flavor = "tap-preferred";
-						bindings =  <&macro_param_1to1>, <&msc>, <&nudge_custom_y>; };
+						bindings =  <&msc>, <&nudge_custom_y>; };
 		
 		layer_mouseb: layer_mouseb { compatible = "zmk,behavior-hold-tap"; label = "layer_mouseb";
 						#binding-cells = <2>; tapping_term_ms = <TIMEOUT_LAYER_HOLD>; flavor = "tap-preferred";
