@@ -712,7 +712,7 @@
 			label = "MouseC";
 			bindings = <
 				LEADING_NONES
-				&mkp MB4            &nudge_mouse_custom SCRL_DOWN MOVE_Y(-40000)    &mkp MB5 &mo  LAYER_ID_MOUSE_B
+				&mkp MB4            &nudge_mouse_custom SCRL_DOWN MOVE_Y(-40000)    &mkp MB5 &mo  LAYER_ID_MOUSE_C
 				MIDDLE_NONES
 				  &nudge_mouse_custom SCRL_RIGHT MOVE_X(-40000) &nudge_mouse_custom SCRL_UP MOVE_Y(40000)  &nudge_mouse_custom SCRL_LEFT MOVE_X(40000) &mo  LAYER_ID_MOUSE_B
 				TRAILING_NONES
