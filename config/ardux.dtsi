@@ -712,9 +712,9 @@
 			label = "MouseC";
 			bindings = <
 				LEADING_NONES
-				&mkp MB4            &layer_mousec MOVE_Y(-15) MOVE_Y(-17000)    &mkp MB5 &mo  LAYER_ID_MOUSE_C
+				&mkp MB4            &layer_mousec MOVE_Y(-25) MOVE_Y(-17000)    &mkp MB5 &mo  LAYER_ID_MOUSE_C
 				MIDDLE_NONES
-				  &layer_mousec MOVE_X(-15) MOVE_X(-30000) &layer_mousec MOVE_Y(15) MOVE_Y(17000)  &layer_mousec MOVE_X(15) MOVE_X(30000) &mo  LAYER_ID_MOUSE_C
+				  &layer_mousec MOVE_X(-25) MOVE_X(-30000) &layer_mousec MOVE_Y(25) MOVE_Y(17000)  &layer_mousec MOVE_X(25) MOVE_X(30000) &mo  LAYER_ID_MOUSE_C
 				TRAILING_NONES
 			>;
 		};
