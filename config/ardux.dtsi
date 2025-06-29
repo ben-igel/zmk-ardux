@@ -11,7 +11,7 @@
 #include <input/processors.dtsi>
 
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1500 
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 20
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 14
 
 
 // nothing new
