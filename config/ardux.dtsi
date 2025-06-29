@@ -479,10 +479,10 @@
 
 	nudge_custom_x: nudge_custom_x {
             compatible = "zmk,behavior-macro-one-param";
-            #binding-cells = <1>;
+            #binding-cells = <0>;
             bindings =	<&macro_tap_time 20>,
-			<&macro_param_1to2>,
-			<&macro_tap &mmv MOVE_X(MACRO_PLACEHOLDER)>;
+			//<&macro_param_1to1>,
+			<&macro_tap &mmv MOVE_X(20000)>;
             label = "NUDGE_CUSTOM_X";
         };
 	nudge_custom_y: nudge_custom_y {
