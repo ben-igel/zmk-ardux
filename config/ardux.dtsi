@@ -453,7 +453,7 @@
 	nudge_custom: nudge_custom {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
-            bindings =	<&macro_tap_time 100>,
+            bindings =	<&macro_tap_time 85>,
 			<&macro_param_1to1>,
 			<&macro_tap &mmv MACRO_PLACEHOLDER>;
             label = "NUDGE_CUSTOM";
@@ -712,9 +712,9 @@
 			label = "MouseC";
 			bindings = <
 				LEADING_NONES
-				&mkp MB4            &layer_mousec SCRL_DOWN MOVE_Y(-30000)    &mkp MB5 &mo  LAYER_ID_MOUSE_C
+				&mkp MB4            &layer_mousec SCRL_DOWN MOVE_Y(-20000)    &mkp MB5 &mo  LAYER_ID_MOUSE_C
 				MIDDLE_NONES
-				  &layer_mousec SCRL_RIGHT MOVE_X(-30000) &layer_mousec SCRL_UP MOVE_Y(30000)  &layer_mousec SCRL_LEFT MOVE_X(30000) &mo  LAYER_ID_MOUSE_C
+				  &layer_mousec SCRL_RIGHT MOVE_X(-30000) &layer_mousec SCRL_UP MOVE_Y(20000)  &layer_mousec SCRL_LEFT MOVE_X(30000) &mo  LAYER_ID_MOUSE_C
 				TRAILING_NONES
 			>;
 		};
