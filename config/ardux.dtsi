@@ -721,7 +721,7 @@
 				LEADING_NONES
 				&mkp LCLK                  &nudge_mouse_custom SCRL_DOWN MOVE_Y(-20000)    &mkp RCLK &mkp MCLK
 				MIDDLE_NONES
-				 &nudge_mouse_custom SCRL_RIGHT MOVE_X(-20000) &nudge_mouse_custom SCRL_UP MOVE_X(20000)  &nudge_mouse_custom_x SCRL_LEFT MOVE_X(20000) &mo  LAYER_ID_MOUSE_B 
+				 &nudge_mouse_custom SCRL_RIGHT MOVE_X(-20000) &nudge_mouse_custom SCRL_UP MOVE_Y(20000)  &nudge_mouse_custom SCRL_LEFT MOVE_X(20000) &mo  LAYER_ID_MOUSE_B 
 				TRAILING_NONES
 			>;
 		};
