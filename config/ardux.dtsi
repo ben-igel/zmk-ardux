@@ -704,7 +704,7 @@
 				LEADING_NONES
 				&mkp MB4            &layer_mouseb MOVE_Y(-5) MOVE_Y(-2000)    &mkp MB5 &mo  LAYER_ID_MOUSE_B
 				MIDDLE_NONES
-				  &layer_mouseb MOVE_X(-5) MOVE_X(-2000) &layer_mouseb MOVE_Y(5) MOVE_Y(2000)  &layer_mouseb MOVE_X(5) MOVE_X(2000) &mo  LAYER_ID_MOUSE_B
+				  &layer_mouseb MOVE_X(-5) MOVE_X(-1500) &layer_mouseb MOVE_Y(5) MOVE_Y(1500)  &layer_mouseb MOVE_X(5) MOVE_X(2000) &mo  LAYER_ID_MOUSE_B
 				TRAILING_NONES
 			>;
 		};
