@@ -254,6 +254,8 @@
 		combo_backspace  { layers = <0 1 2 3 4 5 6 7 8 9 10 11>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_E KEY_R>; bindings = <&kp BACKSPACE>; };
 		combo_delete     { layers = <0 1 2 3 4 5 6 7 8 9 10 11>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_I KEY_R>; bindings = <&kp DELETE>; };
 		combo_shift_lock { timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_R KEY_Y>; bindings = <&kt LSHFT>; };
+
+		combo_softoff      { timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_S KEY_O>; bindings = <&soft_off>; };
 		
 
 		combo_shft        { timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_T KEY_I>; bindings = <&sk LSHFT>; };
