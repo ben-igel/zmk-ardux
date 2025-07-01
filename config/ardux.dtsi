@@ -542,6 +542,12 @@
 	};
 };
 
+
+&soft_off {
+    hold-time-ms = <3000>; // Only turn off it the key is held for 5 seconds or longer.
+};
+
+
 /*****************************************
  * Standard ARDUX layer definitions
  * !!!!!!!!!! FOR RIGHT HANDED USE !!!!!!!!!!
