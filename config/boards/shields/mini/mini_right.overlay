@@ -54,4 +54,25 @@ input-gpios
 	};
 };
 
-
+/ {
+    keys {
+        compatible = "gpio-keys";
+        soft_off_gpio_key: soft_off_gpio_key {
+            gpios =  <&pro_micro_d 20 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+        };
+    };
+};
+/ {
+    wakeup_scan: wakeup_scan {
+        compatible = "zmk,kscan-gpio-direct";
+        input-keys = <&soft_off_gpio_key>;
+        wakeup-source;
+	extra-gpios =  <&pro_micro_d 19 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+    };
+};
+/ {
+    soft_off_wakers {
+        compatible = "zmk,soft-off-wakeup-sources";
+        wakeup-sources = <&wakeup_scan>;
+    };
+};
