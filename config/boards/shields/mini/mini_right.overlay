@@ -57,6 +57,6 @@ input-gpios
 / {
     soft_off_wakers {
         compatible = "zmk,soft-off-wakeup-sources";
-        wakeup-sources = <&wakeup-scan>;
+        wakeup-sources = <&kscan>;
     };
 };
