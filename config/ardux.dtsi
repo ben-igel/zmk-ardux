@@ -914,9 +914,9 @@
 			label = "Mouse";
 			bindings = <
 				LEADING_NONES
-				&mkp LCLK                  &nudge_mouse_custom MOVE_UP 0    &mkp RCLK &mkp MCLK
+				&mkp LCLK                  &nudge_mouse_custom SCRL_DOWN MOVE_Y(-8000)    &mkp RCLK &mo  LAYER_ID_MOUSE_C 
 				MIDDLE_NONES
-				 &nudge_mouse_custom  MOVE_RIGHT 0 &nudge_mouse_custom MOVE_DOWN 0  &nudge_mouse_custom  MOVE_LEFT 0 &mo  LAYER_ID_MOUSE_B 
+				&nudge_mouse_custom SCRL_LEFT MOVE_X(8000) &nudge_mouse_custom SCRL_UP MOVE_Y(6500)  &nudge_mouse_custom SCRL_RIGHT MOVE_X(-6500) &mo  LAYER_ID_MOUSE_B 
 				TRAILING_NONES
 			>;
 		};
@@ -924,12 +924,23 @@
 			label = "MouseB";
 			bindings = <
 				LEADING_NONES
-				&mkp MB4            &msc SCRL_DOWN    &mkp MB5 &mo  LAYER_ID_MOUSE_B
+				&mkp MB4            &layer_mouseb MOVE_Y(-5) MOVE_Y(-2000)    &mkp MB5 &mo  LAYER_ID_MOUSE_B
 				MIDDLE_NONES
-				 &msc SCRL_LEFT &msc SCRL_UP  &msc SCRL_RIGHT &mo  LAYER_ID_MOUSE_B
+				 &layer_mouseb MOVE_X(5) MOVE_X(2000) &layer_mouseb MOVE_Y(5) MOVE_Y(1500)  &layer_mouseb MOVE_X(-5) MOVE_X(-1500)  &mo  LAYER_ID_MOUSE_B
 				TRAILING_NONES
 			>;
 		};
+		mousec {
+			label = "MouseC";
+			bindings = <
+				LEADING_NONES
+				&mkp MCLK            &layer_mousec MOVE_UP MOVE_Y(-17000)    &mkp MCLK &mo  LAYER_ID_MOUSE_C
+				MIDDLE_NONES
+				  &layer_mousec MOVE_RIGHT MOVE_X(30000) &layer_mousec MOVE_DOWN MOVE_Y(17000)   &layer_mousec MOVE_LEFT MOVE_X(-30000) &mo  LAYER_ID_MOUSE_C
+				TRAILING_NONES
+			>;
+		};
+		
 		ARDUX_LAYER_CUSTOM
 		#if defined ARDUX_BIG
 		big_ardux_symbol {
