@@ -1,5 +1,5 @@
 config SHIELD_MINI_LEFT
-	def_bool $(shields_list_contains,pcbpb_left)
+	def_bool $(shields_list_contains,mini_left)
 
 config SHIELD_MINI_RIGHT
 	def_bool $(shields_list_contains,mini_right)
