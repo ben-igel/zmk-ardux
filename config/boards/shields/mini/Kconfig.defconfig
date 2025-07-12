@@ -1,6 +1,6 @@
 if SHIELD_MINI_LEFT
 config ZMK_KEYBOARD_NAME
-	default "minipbL"
+	default "minipb"
 
 endif
 
